@@ -1,0 +1,11 @@
+*{
+    font-family: 'Lilita One', cursive;
+}
+button{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 5px 35px;
+    margin: 15px 0;
+    border-radius: 30px; 
+}
