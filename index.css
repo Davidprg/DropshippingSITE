@@ -5,6 +5,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .titlu {
     background-color: darkred;
     height: 10%;
@@ -73,4 +78,15 @@ body {
 .pozaInstrument {
     max-width: 30%;
     border-radius: 5px;
+}
+
+#wrapper {
+    background: #ccc;
+    overflow: hidden;
+    transition: max-height 300ms;
+    max-height: 0;
+}
+
+#wrapper.open{
+    max-height: 100px;
 }
