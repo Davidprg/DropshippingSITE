@@ -80,13 +80,63 @@ a{
     border-radius: 5px;
 }
 
-#wrapper {
-    background: #ccc;
+#wrapper1 {
+    background: #dd5a5a;
     overflow: hidden;
     transition: max-height 300ms;
     max-height: 0;
 }
 
-#wrapper.open{
+#wrapper1.open{
     max-height: 100px;
+}
+
+#wrapper2 {
+    background: #dd5a5a;
+    overflow: hidden;
+    transition: max-height 300ms;
+    max-height: 0;
+}
+
+#wrapper2.open{
+    max-height: 100px;
+}
+
+#wrapper3 {
+    background: #dd5a5a;
+    overflow: hidden;
+    transition: max-height 300ms;
+    max-height: 0;
+}
+
+#wrapper3.open{
+    max-height: 100px;
+}
+
+#wrapper4 {
+    background: #dd5a5a;
+    overflow: hidden;
+    transition: max-height 300ms;
+    max-height: 0;
+}
+
+#wrapper4.open{
+    max-height: 100px;
+}
+
+.catt{
+    padding-left: 8.7%;
+    list-style-type: none
+}
+.catt2{
+    padding-left: 24.5%;
+    list-style-type: none
+}
+.catt3{
+    padding-left: 41.5%;
+    list-style-type: none
+}
+.catt4{
+    padding-left: 59.2%;
+    list-style-type: none
 }
